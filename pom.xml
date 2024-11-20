@@ -26,4 +26,9 @@
       </plugin>
     </plugins>
   </build>
+  <properties>
+	<sonar.host.url>http://13.232.254.194:9000/</sonar.host.url>
+	<sonar.login>admin</sonar.login>
+	<sonar.password>admin</sonar.password>
+  </properties>
 </project>
