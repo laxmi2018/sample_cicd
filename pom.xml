@@ -22,12 +22,13 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.1</version>
+        <version>3.9.4</version>
       </plugin>
     </plugins>
   </build>
   <properties>
-	<sonar.host.url>http://43.204.36.195:9000/</sonar.host.url>
+	<sonar.host.url>http://43.204.36.195:9000</sonar.host.url>
+	  <sonar.login>sqa_215d388a9207e02c9376d2c64b6f7d7bac1c21b8</sonar.login>
 	<sonar.login>admin</sonar.login>
 	<sonar.password>admin1</sonar.password>
   </properties>
