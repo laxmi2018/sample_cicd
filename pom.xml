@@ -27,7 +27,7 @@
     </plugins>
   </build>
   <properties>
-	<sonar.host.url>http://43.204.36.195:9000</sonar.host.url>
+	<sonar.host.url>http://13.233.141.74:9000</sonar.host.url>
 	  <sonar.login>sqa_215d388a9207e02c9376d2c64b6f7d7bac1c21b8</sonar.login>
   </properties>
 	<distributionManagement>  
