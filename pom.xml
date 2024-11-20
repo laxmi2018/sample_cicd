@@ -30,4 +30,17 @@
 	<sonar.host.url>http://43.204.36.195:9000</sonar.host.url>
 	  <sonar.login>sqa_215d388a9207e02c9376d2c64b6f7d7bac1c21b8</sonar.login>
   </properties>
+	<distributionManagement>  
+	<repository>
+		<id>nexus</id>
+		<name>Ashok IT Releases Nexus Repo</name>
+		<url>http://43.204.110.235:8081/repository/samplelk-release/</url>
+	</repository>
+	
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Ashok IT Snapshots Nexus Repo</name>
+		<url>http://43.204.110.235:8081/repository/samplelk-snapshot/</url>
+	</snapshotRepository>	
+</distributionManagement>
 </project>
