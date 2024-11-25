@@ -27,20 +27,20 @@
     </plugins>
   </build>
   <properties>
-	<sonar.host.url>http://13.233.141.74:9000</sonar.host.url>
-	  <sonar.login>sqa_215d388a9207e02c9376d2c64b6f7d7bac1c21b8</sonar.login>
+	<sonar.host.url>http://3.110.30.68:9000</sonar.host.url>
+	  <sonar.login>sqa_054b7ce663ef281a19c27c5be550424942b83962</sonar.login>
   </properties>
 	<distributionManagement>  
 	<repository>
 		<id>nexus</id>
 		<name>Ashok IT Releases Nexus Repo</name>
-		<url>http://3.110.44.160:8081/repository/samplelk-release/</url>
+		<url>http://43.204.233.186:8081/repository/samplelk-release/</url>
 	</repository>
 	
 	<snapshotRepository>
 		<id>nexus</id>
 		<name>Ashok IT Snapshots Nexus Repo</name>
-		<url>http://3.110.44.160:8081/repository/samplelk-snapshot/</url>
+		<url>http://43.204.233.186:8081/repository/samplelk-snapshot/</url>
 	</snapshotRepository>	
 </distributionManagement>
 </project>
